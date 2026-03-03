@@ -112,7 +112,7 @@ If you use this genome assembly, associated data, or analysis code in your resea
 
 ~~~
 Nakamoto A, Keith L, Yu Q, Sugiyama L, Wu X, Luiz B, Villalun M, Jacobs J, Corbett-Detig R, 
-Cisneros A, Heath H, Shanks C, Okamoto F, Alburo A, Henricson K, Lan E, Moore H, Seligmann W, 
+Cisneros A, Heath HD, Shanks C, Okamoto F, Alburo AAA, Henricson K, Lan YJ, Moore H, Seligmann W, 
 Zybina Y. Genome sequence of Ceratocystis huliohia, a fungal pathogen of the native 
 ‘ōhi‘a tree in Hawai‘i. (preprint). 2026.
 ~~~
