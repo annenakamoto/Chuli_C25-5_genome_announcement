@@ -1,12 +1,15 @@
-# Complete genome sequence of *Ceratocystis huliohia*, a fungal pathogen of the native ‘ōhi‘a tree in Hawai‘i
+# Genome sequence of *Ceratocystis huliohia*, a fungal pathogen of the native ‘ōhi‘a tree in Hawai‘i
 
-[![BioProject](https://img.shields.io/badge/BioProject-PRJNA1400107-a03	)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1400107/)
+[![BioProject](https://img.shields.io/badge/BioProject-PRJNA1400107-a03)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1400107/) 
+[![Assembly](https://img.shields.io/badge/Assembly-GCA__054512535.1-a03)](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054512535.1/) 
+[![SRA](https://img.shields.io/badge/Raw_Reads-SRR36741775-a03)](https://www.ncbi.nlm.nih.gov/sra/SRX31740809[accn]) 
+[![Mito](https://img.shields.io/badge/Mito_Genome-PX891014.1-a03)](https://www.ncbi.nlm.nih.gov/nuccore/PX891014.1)
 
-This repository contains scripts used to produce and analyze the complete *de novo* genome sequence of *Ceratocystis huliohia*, one of two fungal pathogens causing the Rapid ‘Ōhi‘a Death disease of the native ‘ōhi‘a tree in Hawai‘i. This assembly was generated using long-read Nanopore sequencing of *C. huliohia* isolate C25-5, collected on the island of Maui in April 2025.
+This repository contains scripts used to produce and analyze the *de novo* genome sequence of *Ceratocystis huliohia*, one of two fungal pathogens causing the Rapid ‘Ōhi‘a Death disease of the native ‘ōhi‘a tree in Hawai‘i. This assembly was generated using long-read Nanopore sequencing of *C. huliohia* isolate C25-5, collected on the island of Maui in April 2025.
 
 
 ## Introduction
-Hawai‘i’s native forests are threatened by Rapid ‘Ōhi‘a Death (ROD), a disease of the keystone and culturally significant native ‘ōhi‘a tree (*Metrosideros polymorpha*) species. ROD was first characterized in 2014, and is caused by two novel, non-native fungal pathogen species, *Certaocystis lukuohia* and *huliohia*. Genomic resources for these pathogens remain limited, and while *C. lukuohia* has a high quality, long-read reference genome (GCF_044167205.1), no such genome has been available for *C. huliohia*. Here, we present a complete, long-read genome assembly of *C. huliohia* isolate C25-5 collected in April 2025 at Pu‘u Kukui Elementary School on the island of Maui. This resource will serve as a representative long-read genome for the Asian-Australian Clade of *Ceratocystis*, and facilitate further investigation into the origins of *C. huliohia* in Hawai‘i.
+Hawai‘i’s native forests are threatened by Rapid ‘Ōhi‘a Death (ROD), a disease of the keystone and culturally significant native ‘ōhi‘a tree (*Metrosideros polymorpha*) species. ROD was first characterized in 2014, and is caused by two novel, non-native fungal pathogen species, *Certaocystis lukuohia* and *huliohia*. Genomic resources for these pathogens remain limited, and while *C. lukuohia* has a high quality, long-read reference genome (GCF_044167205.1), no such genome has been available for *C. huliohia*. Here, we present a long-read genome assembly of *C. huliohia* isolate C25-5 collected in April 2025 at Pu‘u Kukui Elementary School on the island of Maui. This resource will serve as a representative long-read genome for the Asian-Australian Clade of *Ceratocystis*, and facilitate further investigation into the origins of *C. huliohia* in Hawai‘i.
 
 **Isolate Information**
 | <!-- -->    | <!-- -->    |
@@ -58,14 +61,14 @@ Scripts in this repository are linked below for each step, and code is provided 
         - **Gene annotation:** Funannotate v1.8.17 (and its dependencies)
 
 ## Results
-Statistics for the final *C. huliohia* C25-5 genome assembly (GCA_054512535.1) are shown in the table below. Our assembly demonstrates high completeness, with a BUSCO score indicating 99.7% of fungal orthologs present. The majority of bases (97.6%) and coding sequences (98.6%) reside in the eight largest contigs (>1Mb), falling in the expected chromosome number range of ~7-9 for Ceratocystis species. All eight contigs >1Mb have a telomeric repeat present on at least one end, with five of them being chromosome-level and having telomeres on both ends.
+Statistics for the final *C. huliohia* C25-5 genome assembly (GCA_054512535.1) are shown in the table below. Our assembly demonstrates high completeness, with a BUSCO score indicating 99.7% of fungal orthologs present. The majority of bases (97.6%) and coding sequences (98.6%) reside in the eight largest contigs (>1Mb), falling in the expected chromosome number range of ~7-9 for Ceratocystis species. All eight contigs >1Mb have a telomeric repeat present on at least one end, with five of them being putative chromosomes and having telomeres on both ends.
 
 **C25-5 Assembly summary**
 | <!-- -->    | <!-- -->    |
 |------|-------|
 | Total number of contigs | 16 |
 | Total assembly length | 30,006,571 bp (30.0 Mb) |
-| Number of near-chromosome-level contigs (>1Mb) | 8 |
+| Number of contigs with length >1Mb | 8 |
 | Total length of >1Mb contigs | 29,299,846 bp (29.3 Mb) |
 | Percentage of bases in >1Mb contigs | 97.6% |
 | Contig N50 | 4,906,038 bp (4.9 Mb) |
@@ -110,7 +113,7 @@ If you use this genome assembly, associated data, or analysis code in your resea
 ~~~
 Nakamoto A, Keith L, Yu Q, Sugiyama L, Wu X, Luiz B, Villalun M, Jacobs J, Corbett-Detig R, 
 Cisneros A, Heath H, Shanks C, Okamoto F, Alburo A, Henricson K, Lan E, Moore H, Seligmann W, 
-Zybina Y. Complete genome sequence of Ceratocystis huliohia, a fungal pathogen of the native 
+Zybina Y. Genome sequence of Ceratocystis huliohia, a fungal pathogen of the native 
 ‘ōhi‘a tree in Hawai‘i. (preprint). 2026.
 ~~~
 
