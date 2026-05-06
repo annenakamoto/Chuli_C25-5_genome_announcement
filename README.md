@@ -111,10 +111,10 @@ Statistics for the final *C. huliohia* C25-5 genome assembly (GCA_054512535.1) a
 If you use this genome assembly, associated data, or analysis code in your research, please cite:
 
 ~~~
-Nakamoto A, Keith L, Yu Q, Sugiyama L, Wu X, Luiz B, Villalun M, Jacobs J, Corbett-Detig R, 
-Cisneros A, Heath HD, Shanks C, Okamoto F, Alburo AAA, Henricson K, Lan YJ, Moore H, Seligmann W, 
-Zybina Y. Genome sequence of Ceratocystis huliohia, a fungal pathogen of the native 
-‘ōhi‘a tree in Hawai‘i. (preprint). 2026.
+Nakamoto A, Keith L, Yu Q, Sugiyama L, Wu X, Luiz B, Villalun M, Jacobs J, Corbett-Detig R,
+Cisneros A, Heath HD, Shanks C, Okamoto F, Alburo AAA, Henricson K, Lan YJ, Moore H, Seligmann W,
+Zybina Y. Genome sequence of Ceratocystis huliohia, a fungal pathogen of the native ‘Ōhi‘a tree
+in Hawai‘i. Microbiol Resour Announc, 0:e00236-26. https://doi.org/10.1128/mra.00236-26
 ~~~
 
 ## Acknowledgments
