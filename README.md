@@ -7,6 +7,7 @@
 
 This repository contains scripts used to produce and analyze the *de novo* genome sequence of *Ceratocystis huliohia*, one of two fungal pathogens causing the Rapid ‘Ōhi‘a Death disease of the native ‘ōhi‘a tree in Hawai‘i. This assembly was generated using long-read Nanopore sequencing of *C. huliohia* isolate C25-5, collected on the island of Maui in April 2025.
 
+This resource is published as a genome announcement in Microbiology Resource Announcements: [https://doi.org/10.1128/mra.00236-26](https://doi.org/10.1128/mra.00236-26)
 
 ## Introduction
 Hawai‘i’s native forests are threatened by Rapid ‘Ōhi‘a Death (ROD), a disease of the keystone and culturally significant native ‘ōhi‘a tree (*Metrosideros polymorpha*) species. ROD was first characterized in 2014, and is caused by two novel, non-native fungal pathogen species, *Certaocystis lukuohia* and *huliohia*. Genomic resources for these pathogens remain limited, and while *C. lukuohia* has a high quality, long-read reference genome (GCF_044167205.1), no such genome has been available for *C. huliohia*. Here, we present a long-read genome assembly of *C. huliohia* isolate C25-5 collected in April 2025 at Pu‘u Kukui Elementary School on the island of Maui. This resource will serve as a representative long-read genome for the Asian-Australian Clade of *Ceratocystis*, and facilitate further investigation into the origins of *C. huliohia* in Hawai‘i.
